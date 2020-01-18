@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="title_activity_match">Match</string>
+    <string name="large_text">
+        "this is the large text"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_match_page">MatchPageActivity</string>
+
+    <string name="enter_text">Enter Text</string>
+
+    //HomePage
+    <string name="match_buttonHP">Match</string>
+    <string name="pit_buttonHP">Pit</string>
+
+    //PitPage
+    <string name="pit_title_PP">Pit</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8AFADAD"
+    tools:context=".HomePageActivity">
+
+
+    <Button
+        android:id="@+id/matchButtonHP"
+        android:layout_width="248dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="250dp"
+        android:background="#004D02"
+        android:text="@string/match_buttonHP"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#A1FFFFFF"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <Button
+        android:id="@+id/pitButtonHP"
+        android:layout_width="248dp"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:background="#004D02"
+        android:text="@string/pit_buttonHP"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#A1FFFFFF"
+        android:textColorLink="#0B4405"
+        android:textSize="60sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="900dp"
+        android:maxHeight="15mm"
+        android:layout_marginLeft="10px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cougar1403" />
+
+</RelativeLayout>
